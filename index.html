@@ -35,6 +35,8 @@
             <li>Second topic</li>
             <li>Third topic</li>
         </ol>
+        <hr>
+        <span>This page spans the whole thing.</span>
         <ul>
             <li>Unordered topic</li>
             <li>Other unordered topic</li>
@@ -43,6 +45,57 @@
     <section>
         <a href="https://www.google.com">google</a>
     </section>
+    <section>
+        <video width="320" height="240" controls>
+            <source src="myvideo.mp4" type="video/mp4">
+        </video>
+        <br>
+        <p>Music from one of my favorite musicians, Puppet.</p>
+        <audio controls>
+            <source src="Victory.mp3" type="audio/mp3">
+        </audio>
+    </section>
+    <details>
+        <summary>
+            This is the summary of the page.
+            <p>Here's more summary.</p>
+        </summary>
+    </details>
+    <form>
+        <fieldset>
+            <label for="fname">First name:</label>
+            <input type="text">
+            <br>
+            <label for="lname">Last name:</label>
+            <input type="text">
+            <br>
+            <button type="button">Click Me!</button>
+        </fieldset>
+        <input type="radio" id="one">
+        <label for="one">one</label>
+        <input type="radio" id="two">
+        <label for="two">two</label>
+        <input type="radio" id="three">
+        <label for="three">three</label>
+        <input type="radio" id="four">
+        <label for="four">four</label>
+        <input type="checkbox" id="check">
+        <label for="check">check</label>
+        <br>
+        <input type="date" id="datetime">
+        <label for="datetime">check</label>
+        <br>
+        <label for="favs">Choose your favorite!</label>
+        <input list="favs" name="favs" id="favs">
+        <datalist id="favs">
+            <select>
+                <option value="MyFavorite">Here!</option>
+            </select>
+        </datalist>
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+            Sample text area.
+        </textarea>
+    </form>
 </body>
 
 </html>
